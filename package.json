@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "start": "node build/index.js",
+    "dev": "tsc && node build/index.js",
+    "watch": "tsc -w",
+    "prepare": "npm run build",
+    "railway:build": "npm run build",
+    "railway:start": "npm run start",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
